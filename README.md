@@ -73,6 +73,17 @@ After determine the RFM value we began the modeling phase befor we apply the mod
 
 For comparison we used DBScan for another modeling but because we dont have resource of high computational power we used only more or less 10% of the data then pick the segmentation based on noise, min samples, epsilon. After that we get 7 clusters, there are passive, regular, occation, valuable, loyal, golden and best. Passive is when frequency, frequency, and monetary values are the lowest.
 
+
+# Conclusion Base on Customers segment behavior (Analysis Segmentation Notebook)
+
+Because the naming of the customer segment is done before determining how it behaves, there is a slight error in its meaning, however
+
+Passive customers are the most customers, contribute the most to monetary value, using our e-commerce recently. The thing that really needs to be considered in these passive customers is they never make a second transaction, we need to take feedback from them so we know what needs to be improved from our e-commerce.
+
+Our customers mainly come from 3 segments, namely passive, regular & occation, if we want to increase transactions in our e-commerce, we need to do marketing to them, how to make them continue to use our e-commerce.
+
+Valuable, loyal & Best customers are important to maintain but we must focus more on more users in our e-commerce.
+
 # Evaluation
 Based on cluster segmentation using non-model framework, k-means clustering, and dbscan clustering, we will used segment from k-means clustering with 6 cluster, that are passive, regular, occation, valuable, loyal, and best. K-means can group more clearly of every cluster, with minimize similarity with other clusters. With this clearly segmentation, Olist can analize customer more accurate so more get a company profit. Clearly segmentation can be an important thing in relationship marketing, because can increase understanding of customer necessities.
 
