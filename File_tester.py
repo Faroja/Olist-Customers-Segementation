@@ -1,0 +1,1 @@
+variabel_dua = 'Purwadhika Digital School'
